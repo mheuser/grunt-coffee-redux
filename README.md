@@ -1,11 +1,17 @@
-# grunt-contrib-coffeeredux
+# grunt-coffee-redux
 
 > Compile CoffeeScript files to JavaScript with the CoffeeScript Redux compiler.
 
 
 ## Getting Started
+If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide, as it explains how to create a [gruntfile][Getting Started] as well as install and use grunt plugins. Once you're familiar with that process, install this plugin with this command:
 
-You have to clone this plugin via git until its available via npm.
+```shell
+npm install grunt-coffee-redux --save-dev
+```
+
+[grunt]: http://gruntjs.com/
+[Getting Started]: https://github.com/gruntjs/grunt/blob/devel/docs/getting_started.md
 
 
 ## Coffeeredux task
@@ -36,19 +42,20 @@ Default: `no`
 Create a source map and a CoffeeScript file with all concatenated sources in
 the same folder as the target JavaScript file. 
 
-The source map will be named with this schema: `#{targetJsFileName}map.json`,
-e.g.: `helloworld.jsmap.json`.
+The source map will be named like this: `#{targetJsFileName}map.json`, e.g.:
+`helloworld.jsmap.json`.
 
-The CoffeeScript file with all concatenated  sources will be named with this
-schema: `#{targetJsFileName}.coffee`, e.g.: `helloworld.js.coffee`.
+The CoffeeScript file with all concatenated sources will be named like this:
+`#{targetJsFileName}.coffee`, e.g.: `helloworld.js.coffee`.
+
 
 ### Example Configuration
 
 ```coffee
 coffeeredux:
   options:
-    bare: no
-    sourceMap: yes
+    bare: false
+    sourceMap: true
   compile:
     files:
       'tmp/helloworld.js': [
@@ -65,7 +72,7 @@ This configuration will create following files in the `tmp` folder:
   * `helloworld.jsmap.json`: The source map who is pointing to the
   `helloworld.js.coffee`.
 
-  * `helloworld.js`: Is the to JavaScript compiled version of the
+  * 'helloworld.js': Is the to JavaScript compiled version of the
   `helloworld.js.coffee` file.
 
 
@@ -78,4 +85,4 @@ This configuration will create following files in the `tmp` folder:
 
 Task submitted by [Moritz Heuser](https://github.com/moritzh)
 
-*This file was generated on Fri Jan 18 2013 03:52:28.*
+*This file was generated on Fri Jan 18 2013 18:46:30.*

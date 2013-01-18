@@ -1,15 +1,17 @@
 # Example Configuration
 
-  coffeeredux:
-    options:
-      bare: false
-      sourceMap: true
-    compile:
-      files:
-        'tmp/helloworld.js': [
-          'test/fixtures/hello.coffee'
-          'test/fixtures/world.coffee'
-        ]
+```coffee
+coffeeredux:
+  options:
+    bare: false
+    sourceMap: true
+  compile:
+    files:
+      'tmp/helloworld.js': [
+        'test/fixtures/hello.coffee'
+        'test/fixtures/world.coffee'
+      ]
+```
 
 This configuration will create following files in the `tmp` folder:
 

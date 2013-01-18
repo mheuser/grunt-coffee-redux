@@ -1,5 +1,5 @@
 ###
-grunt-contrib-coffeeredux
+grunt-coffee-redux
 
 Copyright (c) 2013 Moritz Heuser, contributors
 Licensed under the MIT license.

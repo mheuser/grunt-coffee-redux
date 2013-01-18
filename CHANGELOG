@@ -1,4 +1,4 @@
-v0.4.0rc5:
-  date: 2013-01-18
+v0.1.0:
+  date: 2013-01-19
   changes:
-    - Initial commit
+    - Initial npm release
