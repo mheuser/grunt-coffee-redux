@@ -44,16 +44,18 @@ schema: `#{targetJsFileName}.coffee`, e.g.: `helloworld.js.coffee`.
 
 ### Example Configuration
 
-  coffeeredux:
-    options:
-      bare: false
-      sourceMap: true
-    compile:
-      files:
-        'tmp/helloworld.js': [
-          'test/fixtures/hello.coffee'
-          'test/fixtures/world.coffee'
-        ]
+```coffee
+coffeeredux:
+  options:
+    bare: no
+    sourceMap: yes
+  compile:
+    files:
+      'tmp/helloworld.js': [
+        'test/fixtures/hello.coffee'
+        'test/fixtures/world.coffee'
+      ]
+```
 
 This configuration will create following files in the `tmp` folder:
 
@@ -63,7 +65,7 @@ This configuration will create following files in the `tmp` folder:
   * `helloworld.jsmap.json`: The source map who is pointing to the
   `helloworld.js.coffee`.
 
-  * 'helloworld.js': Is the to JavaScript compiled version of the
+  * `helloworld.js`: Is the to JavaScript compiled version of the
   `helloworld.js.coffee` file.
 
 
