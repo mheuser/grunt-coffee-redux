@@ -79,10 +79,11 @@ This configuration will create following files in the `tmp` folder:
 
 ## Release History
 
- * 2013-01-18   v0.4.0rc5   Initial commit
+ * 2013-01-19   v0.2.0   Show in which file a parse error has happened.
+ * 2013-01-19   v0.1.0   Initial npm release
 
 ---
 
 Task submitted by [Moritz Heuser](https://github.com/moritzh)
 
-*This file was generated on Fri Jan 18 2013 18:46:30.*
+*This file was generated on Sat Jan 19 2013 00:43:29.*

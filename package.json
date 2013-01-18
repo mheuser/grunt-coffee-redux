@@ -1,7 +1,7 @@
 {
   "name": "grunt-coffee-redux",
   "description": "Compile CoffeeScript files to JavaScript with the CoffeeScript Redux compiler.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/mheuser/grunt-coffee-redux",
   "author": {
     "name": "Moritz Heuser",

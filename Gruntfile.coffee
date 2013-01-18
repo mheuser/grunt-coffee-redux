@@ -22,6 +22,8 @@ module.exports = (grunt)->
             'test/fixtures/hello.coffee'
             'test/fixtures/world.coffee'
           ]
+          #ToDo: Write a test for a failed compilation
+          #'tmp/shouldNotBeCreated.js': 'test/fixtures/invalid.coffee'
     nodeunit:
       tests: [
         'test/*_test.coffee'

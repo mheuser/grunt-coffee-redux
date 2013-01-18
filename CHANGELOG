@@ -1,3 +1,8 @@
+v0.2.0:
+  date: 2013-01-19
+  changes:
+    - Show in which file a parse error has happened.
+
 v0.1.0:
   date: 2013-01-19
   changes:

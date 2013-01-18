@@ -37,7 +37,13 @@ module.exports = (grunt)->
       #concat all cs, see: https://github.com/jashkenas/coffee-script/pull/1820#issuecomment-5048826
       for sourceFile in targetFile.src
         if grunt.file.exists sourceFile
-          cs.content += "#{grunt.file.read sourceFile}#{grunt.util.linefeed}"
+          #parse all files before the concat to point to errors if some
+          csSource = grunt.file.read sourceFile
+          try
+            coffee.parse csSource
+          catch e
+            grunt.fail.error "Error in file '#{sourceFile}':\n#{e}"
+          cs.content += "#{csSource}#{grunt.util.linefeed}"
         else
           grunt.log.warn "Source file '#{sourceFile}' not found. File skipped."
       
