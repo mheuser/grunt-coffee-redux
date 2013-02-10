@@ -1,3 +1,9 @@
+v0.2.1:
+  date: 2013-02-10
+  changes:
+    - Updated coffee redux dependency to 2.0.0beta2
+    - Updated grunt-contrib-internal to get working links in the README.md
+
 v0.2.0:
   date: 2013-01-19
   changes:
