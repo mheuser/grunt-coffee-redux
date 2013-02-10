@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "coffee-script-redux": "2.0.0-beta1"
+    "coffee-script-redux": "2.0.0-beta2"
   },
   "devDependencies": {
     "grunt-contrib-nodeunit": "~0.1.2rc5",

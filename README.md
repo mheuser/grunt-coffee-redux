@@ -11,7 +11,7 @@ npm install grunt-coffee-redux --save-dev
 ```
 
 [grunt]: http://gruntjs.com/
-[Getting Started]: https://github.com/gruntjs/grunt/wiki/Getting-started
+[Getting Started]: https://github.com/gruntjs/grunt/blob/devel/docs/getting_started.md
 
 
 ## Coffeeredux task
@@ -86,4 +86,4 @@ This configuration will create following files in the `tmp` folder:
 
 Task submitted by [Moritz Heuser](https://github.com/moritzh)
 
-*This file was generated on Sat Jan 19 2013 00:43:29.*
+*This file was generated on Sun Feb 10 2013 07:07:20.*
