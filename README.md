@@ -79,6 +79,7 @@ This configuration will create following files in the `tmp` folder:
 
 ## Release History
 
+ * 2013-02-10   v0.2.2   Fixed error logging
  * 2013-02-10   v0.2.1   Updated coffee redux dependency to 2.0.0beta2 Updated grunt-contrib-internal to get working links in the README.md
  * 2013-01-19   v0.2.0   Show in which file a parse error has happened.
  * 2013-01-19   v0.1.0   Initial npm release
@@ -87,4 +88,4 @@ This configuration will create following files in the `tmp` folder:
 
 Task submitted by [Moritz Heuser](https://github.com/moritzh)
 
-*This file was generated on Sun Feb 10 2013 07:36:33.*
+*This file was generated on Sun Feb 10 2013 11:15:56.*
