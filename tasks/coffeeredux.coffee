@@ -42,7 +42,7 @@ module.exports = (grunt)->
           try
             coffee.parse csSource
           catch e
-            grunt.fail.error "Error in file '#{sourceFile}':\n#{e}"
+            grunt.log.error "Error in file '#{sourceFile}':\n#{e}"
           cs.content += "#{csSource}#{grunt.util.linefeed}"
         else
           grunt.log.warn "Source file '#{sourceFile}' not found. File skipped."
