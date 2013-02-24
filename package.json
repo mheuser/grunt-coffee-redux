@@ -1,7 +1,7 @@
 {
   "name": "grunt-coffee-redux",
   "description": "Compile CoffeeScript files to JavaScript with the CoffeeScript Redux compiler.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "homepage": "https://github.com/mheuser/grunt-coffee-redux",
   "author": {
     "name": "Moritz Heuser",
@@ -28,13 +28,13 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "coffee-script-redux": "2.0.0-beta2"
+    "coffee-script-redux": "2.0.0-beta4"
   },
   "devDependencies": {
-    "grunt-contrib-nodeunit": "~0.1.2rc5",
-    "grunt-contrib-clean": "~0.4.0rc5",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-internal": "*",
-    "grunt": "~0.4.0rc5"
+    "grunt": "~0.4.0"
   },
   "keywords": [
     "gruntplugin"
